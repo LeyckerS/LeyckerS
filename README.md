@@ -1,26 +1,19 @@
 <!-- ============================================================
-     NIGHTFALL - Minimal Dark Professional Theme
+     NIGHTFALL - Minimal Dark Professional Theme (revised)
      ============================================================ -->
 
 <div align="center">
 
-<!-- ANIMATED HEADER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:161b22,50:1a1f2e,75:6e40c9,100:8b5cf6&height=250&section=header&text=LeyckerS&fontSize=70&fontColor=e6edf3&animation=fadeIn&fontAlignY=30&desc=Full%20Stack%20Developer%20%7C%20Tool%20Engineer%20%7C%20Automation&descSize=20&descColor=8b949e&descAlignY=52"/>
-
-<!-- TYPING ANIMATION -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=4000&pause=1500&color=8B5CF6&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=Building+tools+that+push+the+limits.;Automating+what+others+do+by+hand." alt="Typing SVG" />
-</a>
-
-<br/>
+<!-- HEADER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:161b22,50:1a1f2e,75:6e40c9,100:8b5cf6&height=250&section=header&text=LeyckerS&fontSize=70&fontColor=e6edf3&animation=fadeIn&fontAlignY=30&desc=Full%20Stack%20Developer%20%7C%20Tool%20Engineer%20%7C%20Automation&descSize=20&descColor=8b949e&descAlignY=52" alt="LeyckerS - Full Stack Developer | Tool Engineer | Automation"/>
 
 <!-- BADGES ROW -->
-<img src="https://komarev.com/ghpvc/?username=LeyckerS&label=Visitors&color=8b5cf6&style=flat-square&labelColor=0d1117" alt="Visitors"/>
-&nbsp;&nbsp;
-<img src="https://img.shields.io/github/followers/LeyckerS?label=Followers&style=flat-square&color=8b5cf6&labelColor=0d1117&logo=github&logoColor=8b5cf6" alt="Followers"/>
+<a href="https://github.com/LeyckerS">
+  <img src="https://img.shields.io/github/followers/LeyckerS?label=Followers&style=flat-square&color=8b5cf6&labelColor=0d1117&logo=github&logoColor=8b5cf6" alt="GitHub followers"/>
+</a>
 &nbsp;&nbsp;
 <a href="https://github.com/LeyckerS?tab=repositories&sort=stargazers">
-  <img src="https://img.shields.io/github/stars/LeyckerS?label=Stars&style=flat-square&color=8b5cf6&labelColor=0d1117&logo=github&logoColor=8b5cf6" alt="Stars"/>
+  <img src="https://img.shields.io/github/stars/LeyckerS?label=Stars&style=flat-square&color=8b5cf6&labelColor=0d1117&logo=github&logoColor=8b5cf6" alt="GitHub stars"/>
 </a>
 
 </div>
@@ -29,51 +22,46 @@
 
 ---
 
-<!-- ABOUT ME -->
-<table align="center" border="0" cellpadding="0" cellspacing="0">
-<tr>
-<td width="50%" valign="top">
+<!-- ABOUT -->
+<div align="center">
 
 ### <samp>About Me</samp>
 
-<img align="right" width="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"/>
+</div>
 
-- Building **high-performance tools & automation** since 2024
-- Specialized in **async programming** & **browser automation**
-- Crafting **blazing-fast download engines** with Python
-- Passionate about **concurrent systems** & **network optimization**
-- Turning 2.5 Gbps fiber into **real-world throughput**
-- Currently exploring **Rust** & **systems programming**
+- I'm a **full-stack & tool engineer** based in Italy. I build high-performance download engines and automation in Python.
+- My main project is [**moondownloader**](https://github.com/LeyckerS/moondownloader): an async bulk downloader built on **asyncio + aiohttp**, real-Chrome extraction over **CDP (Playwright)** and **curl_cffi** TLS fingerprinting, with a WebView2 GUI and a headless CLI. 1.5k+ stars, 45+ contributors, 100+ merged pull requests.
+- On the web side I work with **TypeScript**, **Node.js / Express**, **SQLite** and **React / Next.js**.
+- Open to **open-source collaborations**.
+
+---
+
+<!-- FEATURED PROJECT -->
+<div align="center">
+
+### <samp>Featured Project</samp>
 
 <br/>
 
-> *"Clean code is not written by following a set of rules. You don't become a software craftsman by learning a list of heuristics. Professionalism and craftsmanship come from values that drive disciplines."*
+<a href="https://github.com/LeyckerS/moondownloader">
+  <img width="70%" src="https://github-stats-extended.vercel.app/api/pin/?username=LeyckerS&repo=moondownloader&theme=tokyonight&bg_color=0d1117&border_color=1a1f2e&icon_color=8b5cf6&title_color=8b5cf6&description_color=8b949e" alt="moondownloader repository card"/>
+</a>
 
-</td>
-<td width="50%" valign="top">
+<br/><br/>
 
-### <samp>Quick Stats</samp>
+<a href="https://github.com/LeyckerS/moondownloader"><img src="https://img.shields.io/github/stars/LeyckerS/moondownloader?style=flat-square&color=8b5cf6&labelColor=0d1117&logo=github&logoColor=8b5cf6&label=Stars" alt="moondownloader stars"/></a>
+&nbsp;
+<a href="https://github.com/LeyckerS/moondownloader/releases/latest"><img src="https://img.shields.io/github/v/release/LeyckerS/moondownloader?style=flat-square&color=8b5cf6&labelColor=0d1117&label=Release" alt="moondownloader latest release"/></a>
+&nbsp;
+<a href="https://github.com/LeyckerS/moondownloader/actions/workflows/lint.yml"><img src="https://img.shields.io/github/actions/workflow/status/LeyckerS/moondownloader/lint.yml?branch=main&style=flat-square&color=8b5cf6&labelColor=0d1117&label=CI" alt="moondownloader CI status"/></a>
+&nbsp;
+<a href="https://github.com/LeyckerS/moondownloader/blob/main/LICENSE"><img src="https://img.shields.io/github/license/LeyckerS/moondownloader?style=flat-square&color=8b5cf6&labelColor=0d1117&label=License" alt="moondownloader license"/></a>
 
-```yaml
-Name:         LeyckerS
-Location:     Italy
-Role:         Full Stack Dev & Tool Engineer
-Experience:   Building since 2024
+</div>
 
-Current Stack:
-  Core:       Python / asyncio / aiohttp
-  Automation: Playwright / Selenium
-  Frontend:   Tkinter / HTML / CSS / JS
-  Backend:    Node.js / Express / Flask
-  Database:   MongoDB / SQLite / Redis
-  Tools:      Git / Docker / CI/CD
+**moondownloader** is a bulk file downloader for datanodes.to and fuckingfast.co, written in Python 3.10+ for Windows and released under MIT. It extracts download links either through a real Chrome instance driven over the Chrome DevTools Protocol (Playwright) or through pure HTTP with a Chrome TLS fingerprint (curl_cffi), then streams the files concurrently with aiohttp. It ships a WebView2 GUI and a headless CLI, is byte-compiled on Python 3.10 through 3.14, linted with ruff and tested with pytest in CI, and has grown to 1.5k+ stars, 55 forks and 45+ contributors with 100+ merged pull requests. Best measured run: ~250 MB/s on a 2.5 Gbps fiber line, 23.5 GB across 47 files in about 3 minutes.
 
-Status:       Open to collaborations
-```
-
-</td>
-</tr>
-</table>
+Want to contribute? Start from the [roadmap](https://github.com/LeyckerS/moondownloader/issues/39), pick a [good first issue](https://github.com/LeyckerS/moondownloader/labels/good%20first%20issue) and read [CONTRIBUTING.md](https://github.com/LeyckerS/moondownloader/blob/main/CONTRIBUTING.md) and the [architecture notes](https://github.com/LeyckerS/moondownloader/blob/main/docs/ARCHITECTURE.md).
 
 ---
 
@@ -84,30 +72,13 @@ Status:       Open to collaborations
 
 <br/>
 
-#### <samp>Languages</samp>
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white"/>
-</p>
+<img src="https://skillicons.dev/icons?i=python,ts,js,html,css,nodejs,express,react,nextjs,tailwind,sqlite,docker,githubactions,git,bash&theme=dark" alt="Python, TypeScript, JavaScript, HTML, CSS, Node.js, Express, React, Next.js, Tailwind CSS, SQLite, Docker, GitHub Actions, Git, Bash"/>
 
-#### <samp>Frameworks & Tools</samp>
-<p>
-  <img src="https://skillicons.dev/icons?i=python,nodejs,express,flask,docker,git,github,linux,vscode,mongodb&theme=dark" />
-</p>
+<br/><br/>
 
-#### <samp>Automation & Performance</samp>
-<p>
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white"/>
-  <img src="https://img.shields.io/badge/aiohttp-2C5BB4?style=for-the-badge&logo=aiohttp&logoColor=white"/>
-  <img src="https://img.shields.io/badge/asyncio-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
-</p>
+**Core** &middot; Python &middot; asyncio &middot; aiohttp &middot; Playwright (CDP) &middot; curl_cffi &middot; Edge WebView2<br/>
+**Web** &middot; TypeScript &middot; JavaScript &middot; HTML / CSS &middot; Node.js &middot; Express &middot; SQLite &middot; React &middot; Next.js &middot; Tailwind CSS<br/>
+**Tooling** &middot; Git &middot; GitHub Actions &middot; Docker &middot; Bash &middot; ruff &middot; pytest
 
 </div>
 
@@ -116,36 +87,18 @@ Status:       Open to collaborations
 <!-- GITHUB STATS -->
 <div align="center">
 
-### <samp>GitHub Analytics</samp>
+### <samp>GitHub Stats</samp>
 
 <br/>
 
 <a href="https://github.com/LeyckerS">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=LeyckerS&show_icons=true&theme=tokyonight&bg_color=0d1117&border_color=1a1f2e&icon_color=8b5cf6&title_color=8b5cf6&text_color=8b949e&hide_border=false&count_private=true&include_all_commits=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeyckerS&layout=compact&theme=tokyonight&bg_color=0d1117&border_color=1a1f2e&title_color=8b5cf6&text_color=8b949e&hide_border=false&langs_count=8"/>
+  <img height="180" src="https://github-stats-extended.vercel.app/api?username=LeyckerS&show_icons=true&include_all_commits=true&theme=tokyonight&bg_color=0d1117&border_color=1a1f2e&icon_color=8b5cf6&title_color=8b5cf6&text_color=8b949e&hide_border=false" alt="LeyckerS GitHub stats"/>
+  <img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=LeyckerS&layout=compact&theme=tokyonight&bg_color=0d1117&border_color=1a1f2e&title_color=8b5cf6&text_color=8b949e&hide_border=false&langs_count=6" alt="LeyckerS most used languages"/>
 </a>
 
 <br/><br/>
 
-<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=LeyckerS&theme=tokyonight&background=0d1117&border=1a1f2e&stroke=1a1f2e&ring=8b5cf6&fire=f97316&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=8b5cf6&sideLabels=8b949e&dates=8b949e"/>
-
-<br/><br/>
-
-<!-- TROPHIES -->
-<img src="https://github-profile-trophy.vercel.app/?username=LeyckerS&theme=discord&no-bg=true&no-frame=true&column=7&margin-w=10" />
-
-</div>
-
----
-
-<!-- CONTRIBUTION GRAPH -->
-<div align="center">
-
-### <samp>Contribution Graph</samp>
-
-<br/>
-
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=LeyckerS&bg_color=0d1117&color=8b5cf6&line=8b5cf6&point=e6edf3&area=true&area_color=8b5cf620&hide_border=false&custom_title=Commit%20Activity"/>
+<img width="70%" src="https://streak-stats.demolab.com/?user=LeyckerS&theme=tokyonight&background=0d1117&border=1a1f2e&stroke=1a1f2e&ring=8b5cf6&fire=f97316&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=8b5cf6&sideLabels=8b949e&dates=8b949e" alt="LeyckerS contribution streak"/>
 
 </div>
 
@@ -168,21 +121,6 @@ Status:       Open to collaborations
 
 ---
 
-<!-- FEATURED REPOS -->
-<div align="center">
-
-### <samp>Featured Projects</samp>
-
-<br/>
-
-<a href="https://github.com/LeyckerS/moondownloader">
-  <img width="70%" src="https://github-readme-stats.vercel.app/api/pin/?username=LeyckerS&repo=moondownloader&theme=tokyonight&bg_color=0d1117&border_color=1a1f2e&icon_color=8b5cf6&title_color=8b5cf6&description_color=8b949e" />
-</a>
-
-</div>
-
----
-
 <!-- CONNECT -->
 <div align="center">
 
@@ -190,18 +128,15 @@ Status:       Open to collaborations
 
 <br/>
 
-<a href="https://discord.com/users/leyckers.">
-  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
-</a>
 <a href="https://github.com/LeyckerS">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
-
-<br/><br/>
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote"/>
+<a href="https://github.com/LeyckerS/moondownloader/issues">
+  <img src="https://img.shields.io/badge/moondownloader-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="moondownloader issues"/>
+</a>
+<img src="https://img.shields.io/badge/Discord-leyckers.-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord: leyckers."/>
 
 </div>
 
-<!-- ANIMATED FOOTER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:161b22,50:1a1f2e,75:6e40c9,100:8b5cf6&height=120&section=footer"/>
+<!-- FOOTER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:161b22,50:1a1f2e,75:6e40c9,100:8b5cf6&height=120&section=footer" alt=""/>
